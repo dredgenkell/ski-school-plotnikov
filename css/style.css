@@ -1,0 +1,161 @@
+body{
+  font-style: normal;
+  color: #060D10;
+}
+
+
+header.main{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  text-align: right;
+}
+
+
+.nav-header{
+  font-size: 24px;
+  line-height: 29px;
+}
+
+
+.callme{
+  font-size: 28px;
+  line-height: 34px;
+}
+
+.section-desc{
+  color: #b6abab;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+
+.h1-desc{
+  font-family: 'Oswald';
+  font-size: 60px;
+  line-height: 89px;
+  text-transform: uppercase;
+}
+
+.text-desc{
+  font-family: 'Montserrat';
+  font-size: 32px;
+  line-height: 39px;
+
+}
+
+
+.section-cons{
+font-style: normal;
+}
+
+.header-cons {
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 80,16px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.h2-cons{
+  font-family: 'Oswald';
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 53,44px;
+  line-height: 53px;
+  text-transform: uppercase;
+}
+
+.text-cons{
+  font-family: 'Montserrat';
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 36,4;
+}
+
+
+.section-go{
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+}
+
+.header-go{
+  font-family: 'Oswald';
+  font-size: 48px;
+  line-height: 80,16px;
+  text-transform: uppercase;
+}
+
+.button-go{
+  font-family: 'Montserrat';
+  font-size: 44px;
+}
+
+.go-pic{
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.footer-style{
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+}
+
+.footer-button{
+  font-size: 20px;
+  line-height: 33,4px;
+  text-align: left;
+  color: #b6abab;
+}
+
+.copyright{
+font-size: 18px;
+line-height: 21,94px;
+text-align: right;
+
+}
+
+
+.twitter-logo{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/twitter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.instagram-logo{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.googleplus-logo{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/google-plus.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.facebook-logo{
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/facebook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
