@@ -1,103 +1,161 @@
-body{
+/* Fonts */
+
+
+
+/* oswald-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
   font-style: normal;
-  color: #060D10;
+  font-weight: 400;
+  src: url('../fonts/oswald-v49-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v49-cyrillic_latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* oswald-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/oswald-v49-cyrillic_latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/oswald-v49-cyrillic_latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-
-header.main{
+/* montserrat-regular - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/montserrat-v25-cyrillic_latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic_latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* montserrat-500 - cyrillic_latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
-  text-align: right;
+  src: url('../fonts/montserrat-v25-cyrillic_latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+       url('../fonts/montserrat-v25-cyrillic_latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #060d10;
+}
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 89px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px #060d10;
+}
+
+/* Header */
+
+header {
+  font-weight: 500;
+  background-color: #66d1ff;
+}
 
 .nav-header{
   font-size: 24px;
   line-height: 29px;
 }
 
-
-.callme{
+.header-phone{
   font-size: 28px;
   line-height: 34px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.section-desc{
-  color: #b6abab;
-  font-style: normal;
+/* Description */
+
+.description{
+  color: #fff;
   font-weight: 500;
+  align-items: center;
   text-align: center;
+  background-color: #b6abab;
 }
 
-.h1-desc{
-  font-family: 'Oswald';
-  font-size: 60px;
-  line-height: 89px;
-  text-transform: uppercase;
-}
-
-.text-desc{
+.description-text {
   font-family: 'Montserrat';
   font-size: 32px;
   line-height: 39px;
+  display: flex;
+  text-shadow: 1px 1px 2px #060d10;
 
 }
 
-
+/* Cons Section */
 .section-cons{
 font-style: normal;
 }
 
-.header-cons {
+.cons-lead{
   font-family: 'Oswald';
   font-weight: 500;
   font-size: 48px;
-  line-height: 80,16px;
+  line-height: 80px;
   text-align: center;
   text-transform: uppercase;
 }
 
-.h2-cons{
+.section-cons h3 {
   font-family: 'Oswald';
   font-weight: 500;
   font-size: 32px;
-  line-height: 53,44px;
   line-height: 53px;
   text-transform: uppercase;
 }
 
-.text-cons{
+.section-cons p {
   font-family: 'Montserrat';
   font-weight: 400;
   font-size: 26px;
-  line-height: 36,4;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  opacity: .8;
 }
 
+/* Go section */
 
 .section-go{
-  font-style: normal;
-  font-weight: 500;
   text-align: center;
 }
 
-.header-go{
+.section-go h2 {
   font-family: 'Oswald';
+  font-weight: 500;
   font-size: 48px;
-  line-height: 80,16px;
+  line-height: 80px;
   text-transform: uppercase;
 }
 
-.button-go{
-  font-family: 'Montserrat';
-  font-size: 44px;
+.button-go {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 44px;
+  display: flex;
 }
 
-.go-pic{
+.go-pic {
   width: 100px;
   height: 100px;
   object-fit: cover;
 }
+
+/* Footer */
 
 .footer-style{
   font-family: 'Montserrat';
@@ -113,9 +171,9 @@ font-style: normal;
 }
 
 .copyright{
-font-size: 18px;
-line-height: 21,94px;
-text-align: right;
+  font-size: 18px;
+  line-height: 21,94px;
+  text-align: right;
 
 }
 
@@ -130,11 +188,11 @@ text-align: right;
   background-size: contain;
 }
 
-.instagram-logo{
+.linkedin-logo{
   display: block;
   width: 40px;
   height: 40px;
-  background-image: url(../images/instagram.svg);
+  background-image: url(../images/linkedin.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
