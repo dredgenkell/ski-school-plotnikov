@@ -40,12 +40,20 @@
        url('../fonts/montserrat-v25-cyrillic_latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+* {
+  box-sizing: border-box;
+}
 
-body{
+body {
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #060d10;
+}
+
+.container {
+  width: 1278px;
+  margin: 0 auto;
 }
 
 h1 {
@@ -63,16 +71,19 @@ h1 {
 /* Header */
 
 header {
+  display: flex;
+  align-items:center;
+  padding: 31px 0;
   font-weight: 500;
   background-color: #66d1ff;
 }
 
-.nav-header{
+.nav-header {
   font-size: 24px;
   line-height: 29px;
 }
 
-.header-phone{
+.header-phone {
   font-size: 28px;
   line-height: 34px;
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -80,7 +91,8 @@ header {
 
 /* Description */
 
-.description{
+.description {
+  padding: 240px 0 260px;
   color: #fff;
   font-weight: 500;
   align-items: center;
@@ -88,7 +100,13 @@ header {
   background-color: #b6abab;
 }
 
+/* .description-lead {
+
+
+} */
+
 .description-text {
+  margin: 60px 190px 0;
   font-family: 'Montserrat';
   font-size: 32px;
   line-height: 39px;
@@ -98,11 +116,13 @@ header {
 }
 
 /* Cons Section */
-.section-cons{
-font-style: normal;
+.section-cons {
+  padding: 170px 0;
+  font-style: normal;
+  background-color: #66d1ff;
 }
 
-.cons-lead{
+.cons-lead {
   font-family: 'Oswald';
   font-weight: 500;
   font-size: 48px;
@@ -130,8 +150,10 @@ font-style: normal;
 
 /* Go section */
 
-.section-go{
+.section-go {
+  padding: 170px 0 180px;
   text-align: center;
+  background-color: #b6abab;
 }
 
 .section-go h2 {
@@ -157,28 +179,29 @@ font-style: normal;
 
 /* Footer */
 
-.footer-style{
+.footer-style {
+  padding: 35px 0;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
+  background-color: #000;
+  color: #fff;
 }
 
-.footer-button{
+.footer-button {
   font-size: 20px;
   line-height: 33,4px;
   text-align: left;
-  color: #b6abab;
 }
 
-.copyright{
+.copyright {
   font-size: 18px;
   line-height: 21,94px;
   text-align: right;
 
 }
 
-
-.twitter-logo{
+.twitter-logo {
   display: block;
   width: 40px;
   height: 40px;
@@ -188,7 +211,7 @@ font-style: normal;
   background-size: contain;
 }
 
-.linkedin-logo{
+.linkedin-logo {
   display: block;
   width: 40px;
   height: 40px;
@@ -198,7 +221,7 @@ font-style: normal;
   background-size: contain;
 }
 
-.googleplus-logo{
+.googleplus-logo {
   display: block;
   width: 40px;
   height: 40px;
@@ -208,7 +231,7 @@ font-style: normal;
   background-size: contain;
 }
 
-.facebook-logo{
+.facebook-logo {
   display: block;
   width: 40px;
   height: 40px;
