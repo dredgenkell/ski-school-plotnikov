@@ -44,16 +44,25 @@
   box-sizing: border-box;
 }
 
+
 body {
+  margin: 0;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   color: #060d10;
+
+}
+
+img {
+  display: block;
+  max-width: 100%;
 }
 
 .container {
   width: 1278px;
   margin: 0 auto;
+
 }
 
 h1 {
@@ -72,15 +81,38 @@ h1 {
 
 header {
   display: flex;
-  align-items:center;
   padding: 31px 0;
   font-weight: 500;
   background-color: #66d1ff;
 }
 
-.nav-header {
+header p{
+  margin: 0;
+  padding: 0;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn {
+  display: flex;
+  padding: 8px 41px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
   font-size: 24px;
+  color: #060d10;
+  text-decoration: none;
+  align-items: center;
   line-height: 29px;
+  background-color: #fff;
+  border: 2px solid #FFFFFF;
+  border-radius: 4px;
+
+
+
 }
 
 .header-phone {
@@ -92,25 +124,28 @@ header {
 /* Description */
 
 .description {
+  text-align: center;
   padding: 240px 0 260px;
   color: #fff;
   font-weight: 500;
-  align-items: center;
-  text-align: center;
   background-color: #b6abab;
+  background-image: url('../images/description.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
-/* .description-lead {
 
-
-} */
+.description-lead {
+  margin-top: 0;
+  margin-bottom: 60px;
+}
 
 .description-text {
-  margin: 60px 190px 0;
+  margin-bottom: 0;
   font-family: 'Montserrat';
   font-size: 32px;
   line-height: 39px;
-  display: flex;
   text-shadow: 1px 1px 2px #060d10;
 
 }
@@ -119,7 +154,7 @@ header {
 .section-cons {
   padding: 170px 0;
   font-style: normal;
-  background-color: #66d1ff;
+  background-color: #fff;
 }
 
 .cons-lead {
@@ -148,12 +183,22 @@ header {
   opacity: .8;
 }
 
+.section-cons ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 /* Go section */
 
 .section-go {
   padding: 170px 0 180px;
   text-align: center;
-  background-color: #b6abab;
+  background-color: #fff;
+  background-image: url('../images/go-background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
 }
 
 .section-go h2 {
@@ -162,19 +207,49 @@ header {
   font-size: 48px;
   line-height: 80px;
   text-transform: uppercase;
+  margin: 0;
+  padding: 0;
 }
 
-.button-go {
+.section-go ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.go-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.go-title{
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.go-btn {
+  position: absolute;
+  display: flex;
+  padding: 20px 107px 22px 108px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: 'Montserrat';
+  font-style: normal;
   font-weight: 500;
   font-size: 36px;
   line-height: 44px;
-  display: flex;
+  color: #060d10;
+  text-decoration: none;
+  align-items: center;
+  line-height: 29px;
+  background-color: #fff;
+  border: 3px solid #060D10;
+  border-radius: 4px;
 }
 
-.go-pic {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
+.go-visual {
+  display: flex;
+  margin-top: 130px;
 }
 
 /* Footer */
@@ -186,6 +261,12 @@ header {
   font-weight: 500;
   background-color: #000;
   color: #fff;
+}
+
+.footer-style ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .footer-button {
