@@ -13,9 +13,9 @@
   <header class="header-main">
     <div class="container">
       <div class="header-wrap">
-        <a href="#"class="nav-btn">Начать учиться</a>
+        <a href="#"class="btn nav-btn">Начать учиться</a>
           <a href="##"><img src="/images/logo.svg" alt="SKIING SCHOOL" class="header-logo"></a>
-          <p class="header-phone">+7 800 800-00-00</p>
+          <a href="tel:"+7 800 800-00-00" class="header-phone">+7 800 800-00-00</a>
       </div>
     </div>
   </header>
@@ -31,58 +31,62 @@
   </section>
 
 
-  <section class="section-cons">
-    <div class="container">
-      <div class="cons-wrap">
-        <h2 class="cons-lead">Учиться с нами увлекательно и эффективно</h2>
-          <ul>
-            <li>
-              <h3>Мы профи</h3>
-              <p>Наши инструктора - мастера спорта, призеры российских и международных стартов.</p>
+  <section class="options">
+    <div class="container options-container">
+        <h2 class="options-lead">Учиться с нами увлекательно и эффективно</h2>
+          <ul class="options-list">
+            <li class="options-item">
+              <div class="options-card">
+                <h3 class="options-title">Мы профи</h3>
+                <p class="options-text">Наши инструктора - мастера спорта, призеры российских и международных стартов.</p>
+              </div>
             </li>
-            <li>
-              <h3>2000+</h3>
-              <p>Довольных райдеров рассекает на заснеженных склонах. И это наша заслуга :)</p>
+            <li class="options-item">
+              <div class="options-card">
+                <h3 class="options-title">2000+</h3>
+                <p class="options-text">Довольных райдеров рассекает на заснеженных склонах. И это наша заслуга :)</p>
+              </div>
             </li>
-            <li>
-              <h3>Учим 365 дней в году</h3>
-              <p>У нас есть крутой тренажер, имитирующий реальный склон площадью 50м. кв</p>
+            <li class="options-item">
+              <div class="options-card">
+                <h3 class="options-title">Учим 365 дней в году</h3>
+                <p class="options-text">У нас есть крутой тренажер, имитирующий реальный склон площадью 50м. кв</p>
+              </div>
             </li>
-            <li>
-              <h3>20+</h3>
-              <p>Наград завоевали наши ученики на регионалных и международных соревнованиях</p>
+            <li class="options-item">
+              <div class="options-card">
+                <h3 class="options-title">20+</h3>
+                <p class="options-text">Наград завоевали наши ученики на регионалных и международных соревнованиях</p>
+              </div>
             </li>
-            <li>
-              <h3>Подари лыжу</h3>
-              <p>Наш благотворительный проект - помогаем сиротам приобщиться к спорту и наладить жизнь</p>
+            <li class="options-item">
+              <div class="options-card">
+                <h3 class="options-title">Подари лыжу</h3>
+                <p class="options-text">Наш благотворительный проект - помогаем сиротам приобщиться к спорту и наладить жизнь</p>
+              </div>
             </li>
-            <li>
-              <h3>Закрытый клуб</h3>
-              <p>Наши студенты попадают на закрытые мастер-классы и вечеринки</p>
+            <li class="options-item">
+              <div class="options-card">
+                <h3 class="options-title">Закрытый клуб</h3>
+                <p class="options-text">Наши студенты попадают на закрытые мастер-классы и вечеринки</p>
+              </div>
              </li>
           </ul>
-      </div>
     </div>
   </section>
 
   <section class="section-go">
     <div class="container">
       <div class="go-wrap">
-        <div class="go-title-wrap">
-          <div class="go-title">
-            <h2>гоу! покорять склоны вместе</h2>
-          </div>
-        </div>
-        <div class="go-btn-wrap">
-          <a href="#" class="go-btn">Начать учиться</a>
-        </div>
+            <h2 class="go-tittle">гоу! покорять склоны вместе</h2>
+          <a href="#" class="btn go-btn">Начать учиться</a>
         <div class="go-visual">
-          <ul>
-            <li> <img src="images/skiers1.png" alt="skiers1" class="go-pic"></li>
-            <li><img src="images/skiers2.png" alt="skiers2" class="go-pic"></li>
-            <li><img src="images/skiers3.png" alt="skiers3" class="go-pic"></;>
-            <li><img src="images/skiers4.png" alt="skiers4" class="go-pic"></;>
-          </ul>
+          <!-- <ul class="go-list"> -->
+             <img src="images/skiers1.png" alt="skiers1" class="go-pic">
+            <img src="images/skiers2.png" alt="skiers2" class="go-pic">
+            <img src="images/skiers3.png" alt="skiers3" class="go-pic">
+            <img src="images/skiers4.png" alt="skiers4" class="go-pic">
+
         </div>
       </div>
     </div>
@@ -94,14 +98,14 @@
     <div class="container">
       <div class="footer-wrap">
         <a href="#" class="footer-button">Присоединяйся</a>
-        <ul class="social-logo">
-          <li><a href="##" alt="Twitter" target="_blank" class="twitter-logo"></a>
+        <ul class="social">
+          <li class="social-item"><a href="##" title="Мы в Twitter" target="_blank" class="social-link" style="background-image: url('images/twitter.svg')"></a>
           </li>
-          <li><a href="##" alt="Linked In" target="_blank" class="linkedin-logo"></a>
+          <li class="social-item"><a href="##" alt="Следи за нами в Linked In" target="_blank" class="social-link" style="background-image: url('images/linkedin.svg')"></a>
           </li>
-          <li><a href="##" alt="Google Plus" target="_blank" class="googleplus-logo"></a>
+          <li class="social-item"><a href="##" alt="Неребочий Google Plus" target="_blank" class="social-link" style="background-image: url('images/google-plus.svg')"></a>
           </li>
-          <li><a href="##" alt="Facebook" target="_blank" class="facebook-logo"></a>
+          <li class="social-item"><a href="##" alt="Мы в Facebook" target="_blank" class="social-link"style="background-image: url('images/facebook.svg')" ></a>
           </li>
         </ul>
         <p class="copyright">copy+v copy+c © 2021</p>
