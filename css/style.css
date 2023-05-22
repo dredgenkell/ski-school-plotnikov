@@ -62,16 +62,16 @@ img {
 .container {
   width: 1278px;
   margin: 0 auto;
-border: 1px solid red;
+  border: 1px solid red;
 
 }
 
 h1 {
+  margin: 0;
   font-family: "Oswald", sans-serif;
   font-weight: 500;
   font-size: 60px;
   line-height: 89px;
-  display: flex;
   align-items: center;
   text-align: center;
   text-transform: uppercase;
@@ -257,7 +257,8 @@ header p{
 }
 
 .go-pic {
-  height: 100%;
+  width: 297px;
+  height: 297px;
   padding-left: 15px;
   padding-right: 15px;
   flex-basis: 25%;
